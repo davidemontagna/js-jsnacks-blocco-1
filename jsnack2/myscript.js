@@ -13,7 +13,7 @@ for(let i=0; i<N; i++){
     for(let index = 0; index<10; index++){
         nArr.push(Math.floor(Math.random() * 100 + 1));
     }    
-    document.writeln("Array " + i + ": " + nArr  + "<br>");
+    document.writeln(`Array ${i}: ${nArr}<br>`);
     
 }
 
